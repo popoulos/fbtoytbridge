@@ -1,0 +1,20 @@
+{
+  "name": "givemenoize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "fb": "^1.1.0",
+    "foundation-cli": "^2.1.0",
+    "mongodb": "^2.1.20",
+    "swig": "^1.4.2",
+    "youtube-api": "^2.0.2"
+  }
+}

@@ -1,0 +1,17 @@
+doctype html
+html(lang="fr")
+	head
+		title Facebook posts group to list
+		script(type='text/javascript').
+	body
+		h1 Fgpparser
+
+		h4= groupId
+
+		.ccontainer
+		if posts
+			ul
+				each val in posts
+					li=	val.name
+						a(href=val.link, target="_blank")  link
+						val.id

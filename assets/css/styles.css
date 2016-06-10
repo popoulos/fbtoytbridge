@@ -1,0 +1,18 @@
+table.fb-content{
+	width:1024px;
+	max-width:1024px;
+	margin:0 auto;
+}
+table.fb-content thead{
+
+}
+table.fb-content tbody{
+
+}
+table.fb-content tr{
+
+}
+table.fb-content td{
+	max-width:250px;
+	word-wrap: break-word;
+}
